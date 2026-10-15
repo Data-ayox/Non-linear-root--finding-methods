@@ -1,0 +1,42 @@
+SCREENING REPORT: NONLINEAR ROOT-FINDING METHODS
+
+Objective:
+This experiment compares the Bisection Method and Newton's
+Method for solving three nonlinear equations.
+
+Methodology:
+Both methods use a tolerance of 1e-8 and a maximum of
+100 iterations. Bisection uses an interval that brackets
+a root, while Newton's Method uses initial guesses
+and derivatives.
+
+Results and Graph Interpretation:
+
+Equation 1: f(x) = x^3 - x - 2
+The graph compares the residual reduction of both methods.
+Bisection progressively narrows the interval, while
+Newton's Method updates the root estimate using the
+derivative.
+
+Equation 2: f(x) = x^2 - 2
+The graph shows how the residual changes during iterations.
+Bisection reduces the interval systematically, while
+Newton's Method uses the derivative to improve its estimate.
+
+Equation 3: f(x) = cos(x) - x
+The graph compares the convergence behaviour of both methods.
+Bisection narrows the interval containing the root, while
+Newton's Method calculates successive estimates using
+the derivative.
+
+Effect of Initial Guesses:
+Different initial guesses were tested for Newton's Method.
+Its convergence depends on the starting value and the
+derivative. The results are recorded in the CSV file.
+
+Conclusion:
+Both methods provide approaches to solving nonlinear
+equations. Bisection is systematic when a valid interval
+is available, while Newton's Method can converge faster
+with a suitable initial guess. The graphs and CSV files
+support the comparison.

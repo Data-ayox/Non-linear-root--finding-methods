@@ -1,0 +1,7 @@
+Equation,Method,Initial Guess,Root,Iterations,Final Residual,Status
+Equation 1,Bisection,-,1.5213797017931938,27,2.978654611851539e-08,Converged
+Equation 1,Newton,1.5,1.5213797068045751,4,4.529709940470639e-14,Converged
+Equation 2,Bisection,-,1.4142135605216026,27,5.236811428943611e-09,Converged
+Equation 2,Newton,1.0,1.4142135623746899,5,4.510614104447086e-12,Converged
+Equation 3,Bisection,-,0.7390851378440857,24,7.747024688420368e-09,Converged
+Equation 3,Newton,0.5,0.7390851339208068,4,1.1809778710514252e-09,Converged
